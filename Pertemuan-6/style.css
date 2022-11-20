@@ -1,0 +1,93 @@
+.body {
+	background: peachpuff;
+	width: 100%;
+	font-family: fantasy;
+	margin: 0 auto;
+}
+
+/* Menjelaskan tentang atribut property yang dipakai di class header
+1. widht berguna untuk mengatur lebar pada tampilan
+2. margin berguna untuk memberikan space diluar elemen
+3. height berfungsi untuk mengatur tinggi pada tampilan
+4. line-heigth berfungsi untuk memberi ruang spasi dan jarak antara barisan teks yang satu dengan yang lainnya pada suatu paragraf.
+5. background berguna untuk memodifikasi tampilan pada web
+6. color berfungsi untuk memodifikasi teks pada web
+*/
+
+.header {
+	width: 90%;
+	margin: auto;
+	height: 85px;
+	line-height: 90px;
+	background: crimson;
+	color: white;
+}
+
+/* Menjelaskan tentang property yang dipakai di class menu
+1. background berguna untuk memodifikasi tampilan pada web
+2. height berfungsi untuk mengatur tinggi pada tampilan
+3. line-heigth berfungsi untuk memberi ruang spasi dan jarak antara barisan teks yang satu dengan yang lainnya pada suatu paragraf.
+4. position: relative itu berfungsi untuk mengatur posisi dari menu dan mengikuti dari DIV nya
+5. widht berguna untuk mengatur lebar pada tampilan
+6. margin berguna untuk memberikan space diluar elemen
+7. padding berfungsi untuk emberikan ruang kosong sebagai batasan, agar tiap elemen terlihat lebih tertata
+*/
+
+.menu {
+	background: crimson;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+	width: 90%;
+	margin: 10px auto;
+	padding: 0 auto;
+}
+
+/* Menjelaskan tentang property yang dipakai di class menu_ul 
+ 1. List-style itu digunakan untuk menghilangkan titik pada list (li)
+*/
+
+.menu_ul {
+	list-style: none;
+}
+
+.menu ul li a {
+	float: left;
+	width: 70px;
+	display: block;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.menu ul li a:hover {
+	background-color: rgb(117, 28, 28);
+	display: block;
+}
+
+.content {
+	width: 90%;
+	margin: auto;
+	height: 450px;
+	padding: 0.1px;
+	background-color: whitesmoke;
+	color: purple;
+}
+
+.border {
+	border: 2px solid crimson;
+	margin-top: 1pc;
+	padding-bottom: 1pc;
+	padding-left: 2pc;
+	padding-right: 2pc;
+}
+
+.footer {
+	color: black;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: large;
+	margin: auto;
+	
+}
